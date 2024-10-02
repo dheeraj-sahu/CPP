@@ -14,4 +14,19 @@ void explainDeque(){
 
     //rest functions are same as vector
     //begin,end,rbegin,rend,clear,insert,size,swap
+
+
+
+    // conversion of the vector/array into the deque
+    //vector
+    deque<int> dq(v.begin(),v.end());
+    //array
+    deque<int> dq(arr,arr+n);
+
+
+    //right rotating the deque by one place
+    dq.push_back(dq.back());
+    dq.pop_back();
+
+    
 }
