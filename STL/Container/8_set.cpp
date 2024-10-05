@@ -45,4 +45,10 @@ void explainSet(){
     auto it=st.lower_bound(2);
     auto it=st.upper_bound(3);
 
+
+
+    //getting the first element of the set
+    auto it=*(st.begin()); //it will be the same data type as the which store in the set
+    //when we use the auto it here it will be the initialised with the same data type as the data structure where we are going to use the auto it
+
 }
