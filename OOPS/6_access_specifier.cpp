@@ -5,8 +5,11 @@ class Class{
     int x;// Public attribute
     private: //access specifier
     int y;// Private attribute
+    protected:
+    int z;
 
 };
+
 
 
 /*
